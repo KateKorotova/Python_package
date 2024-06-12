@@ -16,9 +16,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = [
-    'GitLabRepo @ git+https://git.foxminded.ua/foxstudent107178/task-5-create-the-python-package',
-]
 
 [project.urls]
 Homepage = "https://git.foxminded.ua/foxstudent107178/task-5-create-the-python-package"
