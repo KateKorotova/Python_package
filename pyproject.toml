@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "char_counter_katek"
+version = "0.0.1"
+authors = [
+  { name="Yekatierina Korotova", email="yekaterina.korotova@gmail.com" },
+]
+description = "Count unique chars in string"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'GitLabRepo @ git+https://git.foxminded.ua/foxstudent107178/task-5-create-the-python-package',
+]
+
+[project.urls]
+Homepage = "https://git.foxminded.ua/foxstudent107178/task-5-create-the-python-package"
